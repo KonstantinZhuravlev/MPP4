@@ -1,0 +1,46 @@
+.user-profile-image{
+    height: 400px;
+    width: 400px;
+    margin: 130px;
+    margin-top: 10px;
+} 
+
+.user-profile-info{
+    margin-top: 10px;
+    height: 400px;
+    background-color: gray;
+    margin-right: 130px;
+    display: flex;
+}
+
+.user-profile-row{
+    width: 100%;
+    height: auto;
+    /* background-color: yellow; */
+    padding-left: 20px;
+    font-size: 22px;
+    color: black;
+}
+
+.user-profile-col-highlighted{
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+#profileImage{
+    height: 100%;
+    width: 100%;
+}
+
+
+.user-profile-col{
+    width: 50%;
+}
+
+.user-profile{
+    /* background-color: aquamarine; */
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
