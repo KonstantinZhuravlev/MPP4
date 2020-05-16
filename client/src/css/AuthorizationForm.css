@@ -1,0 +1,96 @@
+.AuthorizationForm .container {
+    height: auto;
+    align-content: center;
+}
+
+.card {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.input-group{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.input-group-prepend span {
+    color: black;
+    background-color: #ffff7a;    
+    border: 0 !important;
+    width: 130px;
+}
+
+input:cus {
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;   
+}
+
+.AuthorizationForm .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_btn, .reg_btn {
+    color: black;
+    background-color: #ffff7a;
+    width: auto;
+}
+
+.alert-danger{
+    margin-top: 10px;
+}
+
+.regIconWarning{
+    width: auto;
+    background-image: url("../icons/warning-icon.png");
+}
+
+.reg-failed {
+    font-size: 25px;
+    background-color: white;
+    color: red;
+    margin-top: 10px;
+    border-radius: 25px;
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    padding: 5px;
+}
+
+.project-name{
+    padding: 5px;
+    color: white;
+}
+
+.reg-form-control {
+    color: black;
+    background-color: white; 
+}
+
+.defining-error {
+    color: crimson;
+}
+
+.login_btn:hover, .reg_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+}
+
+a {
+    margin-left: 4px;
+    color: #ffff7a;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

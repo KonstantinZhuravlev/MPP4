@@ -1,0 +1,7 @@
+POST http://localhost:3002/login?login=saf&passwd=asdf2000
+
+###
+
+GET http://localhost:3001/chat/messages?msgIndex=1
+# Content-Type: application/json
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbiI6InNhZiIsInBhc3N3ZCI6ImFzZGYyMDAwIiwiaWF0IjoxNTg3Mjk0NjMwfQ.Re9npysxDPjvVKszC66S5slZhplzg6-XETtIXwFqJzQ; HttpOnly 
